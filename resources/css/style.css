@@ -1,17 +1,35 @@
+
+/*common characteristics for page set in body*/
 body {
   font-family: Helvetica;
   text-align: center;
 }
-
+/*section to handle hero title unique characteristics*/
 #hero-title {
     font-size: 70px;
     font-weight: bold;
     color: white
 }
-
+/*link element specific formatting applied here*/
 a {
   color: white;
 }
+
+/*set image container for header*/
 .hero-image {
   background-image: url("../images/the-flatiron-building.png");
+}
+
+#process-header {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#process-step {
+  font-size:23px;
+  font-weight: bold;
+}
+#process-explain {
+  font-size:14px;
+
 }
