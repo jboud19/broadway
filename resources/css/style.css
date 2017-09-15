@@ -2,3 +2,16 @@ body {
   font-family: Helvetica;
   text-align: center;
 }
+
+#hero-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: white
+}
+
+a {
+  color: white;
+}
+.hero-image {
+  background-image: url("../images/the-flatiron-building.png");
+}
