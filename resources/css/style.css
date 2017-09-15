@@ -11,13 +11,25 @@ body {
     color: white
 }
 /*link element specific formatting applied here*/
+
 a {
   color: white;
+  font-size: 18px;
+}
+ul {
+list-style: none;
 }
 
-/*set image container for header*/
+/*set image container for hero image*/
 .hero-image {
   background-image: url("../images/the-flatiron-building.png");
+}
+
+
+#design-ny {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
 }
 
 #process-header {
@@ -25,11 +37,22 @@ a {
   font-weight: bold;
 }
 
-#process-step {
-  font-size:23px;
+.step {
+  font-size: 23px;
   font-weight: bold;
 }
-#process-explain {
+.explain {
   font-size:14px;
 
+}
+
+#footer {
+  background-color: dimgray;
+  text-align: left;
+
+}
+
+.copyright {
+  color: white;
+  font-size: 11px;
 }

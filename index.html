@@ -11,35 +11,67 @@
 <body>
 
   <!--set image container-->
-<div class="hero-image">
+<div id="home" class="hero-image">
 
   <!--identify section title -->
   <p id="hero-title">Broadway Design</p>
   <!--set nav links - don't use nav to make vertical layout easier -->
-      <p><a href="home">Home</a></p>
-      <p><a href="process">Process</a></p>
-      <p><a href="work">Work</a></p>
-      <p><a href="team">Team</a></p>
-      <p><a href="contact">Contact</a></p>
-  </div>
-    <div id=home>
-
+  <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
 
 <div>
   <p id="process-header">Our Process<p>
+    <!--Identify step of process-->
     <img src="resources/images/identify.svg">
-    <p id="process-step">Identify</p>
-   <p id="process-explain">We focus on the most important details</p>
+    <p class="step">Identify</p>
+   <p class="explain">We focus on the most important details.</p>
+   <!--Understand step of process-->
+   <img src="resources/images/understand.svg">
+   <p class="step">Understand</p>
+  <p class="explain">We study our projects inside and out.</p>
+  <!--Execute step of process-->
+  <img src="resources/images/execute.svg">
+  <p class="step">Execute</p>
+ <p class="explain">We put everything we have into our work.</p>
 </div>
 
-<div id=work>
+<!--set image container-->
+<div id="design-ny" class="hero-image">
+<p>Designed in New York</p>
+</div>
+<!--text divisions -->
+<div id="work">
+<p class="step">Portfolio</p>
+  <p class="explain">Coming Soon.</p>
+</div>
+  <div id="team">
+  <p class="step">Team</p>
+  <p class="explain">We're Hiring.</p>
+</div>
+    <div id="contact">
+  <p class="step">Contact</p>
+  <p class="explain">Phone (555)-555-5555</p>
+  <p class="explain">Email test@example.com</p>
+  <p class="explain">Twitter @test</p>
 </div>
 
-<div id=team>
-</div>
+<!--bottom nav section -->
 
-<div id=contact>
+<div id="footer">
+  <nav>
+    <a class=copyright>&#169;Broadway 2016</a>
+    <a href="#home">Home</a>
+    <a href="#process">Process</a>
+    <a href="#work">Work</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </div>
 
 </body>
